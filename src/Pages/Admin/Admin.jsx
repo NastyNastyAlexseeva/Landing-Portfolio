@@ -1,4 +1,4 @@
-import './Admin.scss';
+import cl from './Admin.module.scss';
 
 const Admin = () => {
   return (

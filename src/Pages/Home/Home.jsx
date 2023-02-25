@@ -1,17 +1,13 @@
-import {
-  Link,
-} from "react-router-dom";
+import Layout from "../../Components/Layout";
 
-import './Home.scss';
+import cl from './Home.module.scss';
 
 const Home = () => {
   return (
     <>
-      <ul>
-        <li><Link to="/auth">Auth</Link></li>
-        <li><Link to="/admin">Admin</Link></li>
-      </ul>
-      <h1>Home page</h1>
+      <Layout>
+        <h1>Home</h1>
+      </Layout>
     </>
   );
 }
