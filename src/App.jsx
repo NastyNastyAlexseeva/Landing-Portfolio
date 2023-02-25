@@ -13,11 +13,11 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/landing_portfolio/auth",
+    path: "/auth",
     element: <Auth />,
   },
   {
-    path: "/landing_portfolio/admin",
+    path: "/admin",
     element: <Admin />,
   },
 ]);
