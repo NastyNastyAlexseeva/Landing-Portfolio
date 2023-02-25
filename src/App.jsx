@@ -1,6 +1,7 @@
 import {
   createBrowserRouter,
   RouterProvider,
+  HashRouter,
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
@@ -24,7 +25,9 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <RouterProvider router={router} />
+    <HashRouter>
+        <RouterProvider router={router} />
+    </HashRouter>
   );
 }
 

@@ -2,7 +2,7 @@
   "name": "landing_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NastyNastyAlexseeva.github.io/landing_portfolio/",
+  "homepage": "https://NastyNastyAlexseeva.github.io/landing_portfolio",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
