@@ -9,7 +9,7 @@ import Admin from "./Pages/Admin";
 
 const router = createBrowserRouter([
   {
-    path: "/landing_portfolio", // позже настроить
+    path: "/", // позже настроить
     element: <Home />,
   },
   {
