@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.88e6059a.css","mappings":"AAAA,GACE,UCDF,KACE,QACF","sources":["Pages/Home/Home.scss","index.css"],"sourcesContent":["h1 {\r\n  color: red;\r\n}","body {\n  margin: 0;\n}\n"],"names":[],"sourceRoot":""}
