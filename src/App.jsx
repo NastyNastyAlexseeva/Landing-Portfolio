@@ -1,7 +1,6 @@
 import {
   createBrowserRouter,
   RouterProvider,
-  HashRouter,
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
@@ -10,24 +9,22 @@ import Admin from "./Pages/Admin";
 
 const router = createBrowserRouter([
   {
-    path: "/", // позже настроить
+    path: "/landing_portfolio", // позже настроить
     element: <Home />,
   },
   {
-    path: "/auth",
+    path: "landing_portfolio/auth",
     element: <Auth />,
   },
   {
-    path: "/admin",
+    path: "landing_portfolio/admin",
     element: <Admin />,
   },
 ]);
 
 const App = () => {
   return (
-    <HashRouter>
-        <RouterProvider router={router} />
-    </HashRouter>
+    <RouterProvider router={router} />
   );
 }
 
