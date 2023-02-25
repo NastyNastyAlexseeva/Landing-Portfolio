@@ -10,18 +10,18 @@ import Admin from "./Pages/Admin";
 
 const router = createHashRouter([
   {
-    path: "/landing_portfolio", // позже настроить
+    path: "/", // позже настроить
     element: <Home />,
   },
   {
-    path: "landing_portfolio/auth",
+    path: "/auth",
     element: <Auth />,
   },
   {
-    path: "landing_portfolio/admin",
+    path: "/admin",
     element: <Admin />,
   },
-]);
+], {basename: '/'});
 
 const App = () => {
   return (
