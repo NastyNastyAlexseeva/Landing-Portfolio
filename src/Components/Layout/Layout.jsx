@@ -6,7 +6,7 @@ import cl from './Layout.module.scss';
 
 const Layout = ({ children }) => {
   return (
-    <main>
+    <main className={cl.layout}>
       <Header />
       <BContainer>
         {children}
