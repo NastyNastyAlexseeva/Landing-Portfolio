@@ -4,10 +4,10 @@ import Header from '../Header';
 
 import cl from './Layout.module.scss';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, isAdmin }) => {
   return (
     <main className={cl.layout}>
-      <Header />
+      <Header isAdmin={isAdmin} />
       <BContainer>
         {children}
       </BContainer>

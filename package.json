@@ -5,9 +5,12 @@
   "homepage": "https://NastyNastyAlexseeva.github.io/landing_portfolio",
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
+    "react-avatar-editor": "^13.0.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "sass": "^1.58.3",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "use-resize-observer": "^9.1.0"
   }
 }

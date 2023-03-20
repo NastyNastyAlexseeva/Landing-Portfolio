@@ -1,8 +1,13 @@
+import Layout from "../../Components/Layout";
+import BannerForm from '../../Components/Forms/BannerForm';
+
 import cl from './Admin.module.scss';
 
 const Admin = () => {
   return (
-    <h1>Admin page</h1>
+    <Layout isAdmin={true}>
+      <BannerForm />
+    </Layout>
   );
 }
 

@@ -6,7 +6,7 @@ const Tags = ({ list }) => {
   return (
     list?.length ?
     <div className={cl.tags}>
-      { list.map(({ name }) => <Tag name={name} />) }
+      { list.map(({ name }, index) => <Tag key={index} name={name} />) }
     </div>
     : null
   );

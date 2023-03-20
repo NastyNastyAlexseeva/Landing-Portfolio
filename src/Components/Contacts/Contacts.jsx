@@ -7,7 +7,7 @@ const Contacts = ({ list }) => {
     <div id='contacts' className={cl.contacts}>
       <h3>Contacts</h3>
       {
-        list?.length ? list.map(({url}) => <ContactItem url={url} />) : null
+        list?.length ? list.map(({url}, index) => <ContactItem key={index} url={url} />) : null
       }
     </div>
   );
